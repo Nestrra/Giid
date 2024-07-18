@@ -1,7 +1,7 @@
 import { MenuOutlined } from "@mui/icons-material"
-import { AppBar, Box, Grid, IconButton, TextField, Toolbar } from "@mui/material"
+import { AppBar, Box, Grid, IconButton, Toolbar } from "@mui/material"
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import SearchIcon from '@mui/icons-material/Search';
+
 
 interface NavProps {
 

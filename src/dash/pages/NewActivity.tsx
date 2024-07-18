@@ -1,7 +1,7 @@
-import { Box, Button, Grid, InputAdornment, MenuItem, Typography } from '@mui/material'
+import { Box,  Grid, InputAdornment, MenuItem, Typography } from '@mui/material'
 import { InputGiid } from './components/inputs/InputGiid'
 import { LoadingButton } from '@mui/lab'
-import CloudUploadIcon from '@mui/icons-material/CloudUpload';
+//import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import { Form, Formik, } from 'formik';
 import { validations } from './form/validation';
 import { initialValues } from './form/initialValues';
@@ -13,7 +13,7 @@ import { handleOnChange } from '../../utils/handleOnchangeNumberFormat';
 import { useDepartaments } from '../../hooks/useDepartaments';
 import { Cities, Departament } from '../../interfaces/appInterface';
 import { useCities } from '../../hooks/useCities';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 
 
@@ -47,11 +47,11 @@ export const NewActivity = () => {
            }
 
 
-           const dep = (code:any)=>{
+        //    const dep = (code:any)=>{
 
-                console.log(code)
+        //         console.log(code)
 
-           }
+        //    }
 
     console.log(filterCity(departamentS) )
   
